@@ -1,0 +1,21 @@
+header {
+    border-bottom: 1px solid black;
+
+    .logoCover{
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+    }
+
+    .headerCover {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0;
+        
+        .buttons {
+            display: flex;
+            column-gap: 10px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.form {
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+   
+
+    .formCover{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+        .inputCover{
+            width: 74%;
+        }
+    }
+
+    .formTitle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }   
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.reset{
+  display: flex;
+  justify-content: end;
+}
